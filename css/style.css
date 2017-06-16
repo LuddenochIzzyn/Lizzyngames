@@ -1,5 +1,5 @@
 .game-ribrik {
-	color: #00bf00 ;
+	color: #ffd400 ;
 	margin-top: 60px;
 	font-family: 'Press Start 2P', cursive;
 
@@ -50,3 +50,6 @@ p{color: #ff0000;}
 
 
 h2{color: #ff0000;}
+
+.LOL{background-image: url("../bilder/hacking.png");
+	background-size: cover; }
