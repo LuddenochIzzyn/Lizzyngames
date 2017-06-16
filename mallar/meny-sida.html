@@ -1,0 +1,57 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+
+    <!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+    <head>
+        <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Senaste Bootsrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Senaste Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Använd egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+        <link rel="stylesheet" type ="text/css" href="style.css">
+
+        <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+        <title>Mina hemsida</title>
+    </head>
+
+    <!-- I body finns allt innehåll på hemsidan -->
+    <body>
+
+        <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+        <header>
+            <div class="container">
+                <h1>Den stora rubriken</h1>
+            </div>
+        </header>
+        <div class="container">
+            <!-- Gör huvuddelen till en rad som består av två kolumner. En liten för menyn och en stor för innehåll -->
+            <div class="row">
+                <!-- Den lilla kolumnen där menyn finns -->
+                <div class="col-sm-2">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a>Djur</a></li>
+                        <li><a>Spel</a></li>
+                        <li><a>Nyheter</a></li>
+                    </ul>
+                </div>
+                <!-- I main finns det som anses vara innehållet för just denna sida på webbplatsen, tex en text om hästar med en bild -->
+                <main>
+                    <!-- Den stora kolumnen där innehållet finns -->
+                    <div class="col-sm-10">
+                        <h1>Mitt innehåll</h1>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
