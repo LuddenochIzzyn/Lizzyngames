@@ -1,0 +1,55 @@
+.game-ribrik {
+	color: #ffd400 ;
+	margin-top: 60px;
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+
+.scratch {
+
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;	background-image: url("../bilder/cool-pics-12.jpg");
+	background-size: cover; 	
+}
+
+.red {
+	color: #ff0000;
+    margin-top: 80px;
+}
+
+.back {
+		background-image: url("../bilder/background-pink.jpg");
+	background-size: cover; 
+}
+
+.webshop {
+	margin-top: 80px;
+}
+
+.nav {
+	background-color: black ;
+}
+
+h3{color: #ff0000;}
+
+p{color: #ff0000;}
+
+.ded {
+	color: #ff0000;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.minion{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+
+
+h2{color: #ff0000;}
+
+.LOL{background-image: url("../bilder/hacking.png");
+	background-size: cover; }

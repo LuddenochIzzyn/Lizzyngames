@@ -1,0 +1,58 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body class=LOL>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+<header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="bilder/logo.jpg"></a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Games</a></li>
+                        <li><a href="menyval2.html">webshop (under constuction)</a></li>
+                        <li><a href="menyval3.html">About us</a></li>
+                    </ul>   
+                </div>
+            </nav>
+        </header>>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1 class="game-ribrik"><strong> Our games!</strong></h1>
+     <iframe allowtransparency="true" width="500" height="420" src="https://scratch.mit.edu/projects/embed/166149146/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+    <iframe allowtransparency="true" width="500" height="420" src="https://scratch.mit.edu/projects/embed/165831906/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+    <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/166213492/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    </main>
+</body>
+</html>
